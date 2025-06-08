@@ -151,18 +151,17 @@
 }
 
 .profile-avatar {
-  width: 96px;               /* Equivalent to w-24 in Tailwind */
-  height: 96px;              /* Equivalent to h-24 */
-  border-radius: 50%;        /* Makes it circular */
-  overflow: hidden;          /* Clips overflow content */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Optional for glow */
-  margin-bottom: 1rem;
-}
-
-.profile-avatar img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;         /* Ensures image fills without distortion */
+  width: 80px;
+  height: 80px;
+  background: var(--accent-gradient);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--bg-primary);
 }
 
 .profile-section h3 {
