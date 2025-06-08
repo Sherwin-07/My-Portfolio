@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="hero-content">
           <div className="hero-text animate-fade-in-left">
             <h1 className="hero-title">
-              < Hi, I'm <span className="gradient-text">Sherwin Raj S A J ></span>
+              "<" Hi, I'm <span className="gradient-text">Sherwin Raj S A J ">" </span>
             </h1>
             <p className="hero-subtitle">
               Web Developer
