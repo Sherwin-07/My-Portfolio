@@ -52,10 +52,10 @@ const Hero = () => {
           <div className="hero-visual animate-fade-in-right">
             <div className="hero-card">
               <div className="card-glow"></div>
-              <div className="profile-section">
+                <div className="profile-section">
                 <div className="profile-avatar">
-                <img src={profileImage} alt="Profile" />
-          </div>
+                  <span className="avatar-text">SR</span>
+                </div>
                 <h3>Sherwin Raj S A J</h3>
                 <p>B.Tech Information Technology</p>
                 <p>Thiagarajar College of Engineering</p>
@@ -84,7 +84,4 @@ export default Hero;
 
 
 
-   <div className="profile-section">
-                <div className="profile-avatar">
-                  <span className="avatar-text">SR</span>
-                </div>
+ 
