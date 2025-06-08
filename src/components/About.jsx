@@ -10,8 +10,7 @@ const About = () => {
             <h2>About Me</h2>
             <div className="about-description">
               <p>
-                I'm a passionate Information Technology student at Thiagarajar College of Engineering, 
-                driven by curiosity and a love for creating digital solutions. My journey in tech has 
+                I'm a passionate WEB DEVELOPER driven by curiosity and a love for creating digital solutions. My journey in tech has 
                 been focused on web development, where I combine creativity with technical skills to 
                 build meaningful applications.
               </p>
