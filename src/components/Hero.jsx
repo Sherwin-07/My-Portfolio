@@ -1,5 +1,6 @@
 import React from 'react';
 import { Download, Mail, MapPin, Phone } from 'lucide-react';
+import profileImage from '../assets/new.jpg';
 import './Hero.css';
 
 const Hero = () => {
@@ -14,7 +15,7 @@ const Hero = () => {
         <div className="hero-content">
           <div className="hero-text animate-fade-in-left">
             <h1 className="hero-title">
-              "<" Hi, I'm <span className="gradient-text">Sherwin Raj S A J ">" </span>
+               Hi, I'm <span className="gradient-text">Sherwin Raj S A J </span>
             </h1>
             <p className="hero-subtitle">
               Web Developer
@@ -53,8 +54,8 @@ const Hero = () => {
               <div className="card-glow"></div>
               <div className="profile-section">
                 <div className="profile-avatar">
-                  <span className="avatar-text">SR</span>
-                </div>
+                <img src={profileImage} alt="Profile" />
+          </div>
                 <h3>Sherwin Raj S A J</h3>
                 <p>B.Tech Information Technology</p>
                 <p>Thiagarajar College of Engineering</p>
@@ -79,3 +80,11 @@ const Hero = () => {
 };
 
 export default Hero;
+
+
+
+
+   <div className="profile-section">
+                <div className="profile-avatar">
+                  <span className="avatar-text">SR</span>
+                </div>
