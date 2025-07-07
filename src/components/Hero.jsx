@@ -55,7 +55,7 @@ const Hero = () => {
                 <div className="profile-section">
                 <div className="profile-avatar">
                    <span classname="avatar-image">
-                     < img src={profileImage} alt="SR" />
+                     <img src={profileImage} alt="SR" />
                    </span>
                 </div>
                 <h3>Sherwin Raj S A J</h3>
