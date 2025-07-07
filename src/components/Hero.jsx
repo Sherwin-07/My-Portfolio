@@ -54,7 +54,9 @@ const Hero = () => {
               <div className="card-glow"></div>
                 <div className="profile-section">
                 <div className="profile-avatar">
-                  <span className="avatar-text">SR</span>
+                   <span classname="avatar-image>
+                     < img src={profileImage} alt-"SR" />
+                   </span>
                 </div>
                 <h3>Sherwin Raj S A J</h3>
                 <p>B.Tech Information Technology</p>
